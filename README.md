@@ -4,7 +4,7 @@ Welcome to my personal website!
 
 # Preview
 
-![thumbnail](README_imgs/website_prev.png)
+![thumbnail](imgs/website_prev.png)
 
 # About
 
