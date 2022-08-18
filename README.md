@@ -8,4 +8,4 @@ Welcome to my personal website!
 
 # About
 
-Check it out at [Boris-Russanov.github.io](Boris-Russanov.github.io)
+Check it out at [Boris-Russanov.github.io](https://Boris-Russanov.github.io)

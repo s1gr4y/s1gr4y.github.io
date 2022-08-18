@@ -45,6 +45,11 @@ body {
     position: relative;
 }
 
+.site-footer {
+    /*border-top: 1px solid #e8e8e8;*/
+    padding: 10px 0;
+}
+
 .container {
     font-family: 'Roboto Mono', monospace;
     position: relative;
