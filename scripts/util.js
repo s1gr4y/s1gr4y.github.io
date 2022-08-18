@@ -23,9 +23,6 @@ for (let i = 0; i < sizeRight; i++) {
 }
 
 console.log("Nice too see you here...");
-for (let i = 0; i < 10; i++) {
-	console.log("Count down " + i);
-}
 
 function set_stars_pos_Left() {
 	let id = null;
@@ -45,7 +42,12 @@ function set_stars_pos_Left() {
 		} else {
 			new_row.style.right = starPosLeft[i].x + "px";
 		}
-		new_row.src="imgs/star.gif";
+		let picType = Math.floor(Math.random() * 10);	//0-9
+		if (picType >= 4) {
+			new_row.src="imgs/star_white.gif";
+		} else {
+			new_row.src="imgs/star_white_short.gif";
+		}
 		elem.appendChild(new_row);
 	}
 }
@@ -64,11 +66,16 @@ function set_stars_pos_Right() {
 		new_row.id = "star" + i;
 		new_row.style.top = starPosRight[i].y + "px";
 		if (i % 2 == 0) {
-			new_row.style.left = starPosRight[i].x + "px";
-		} else {
 			new_row.style.right = starPosRight[i].x + "px";
+		} else {
+			new_row.style.left = starPosRight[i].x + "px";
 		}
-		new_row.src="imgs/star.gif";
+		let picType = Math.floor(Math.random() * 10);
+		if (picType >= 4) {
+			new_row.src="imgs/star_white.gif";
+		} else {
+			new_row.src="imgs/star_white_short.gif";
+		}
 		elem.appendChild(new_row);
 	}
 }
