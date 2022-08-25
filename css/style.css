@@ -26,12 +26,14 @@ body {
 }
 
 .welcome_box {
+	/*
     height: 44px;
 	width: 225px;
     border-top: 4px dashed white;
 	border-left: 4px solid white;
 	border-right: 4px solid white;
 	border-bottom: 4px dashed white;
+	*/
     margin: 0 auto;
 	margin-top: 2em;	/*Spacing from the top*/
 	margin-bottom: 1em;
