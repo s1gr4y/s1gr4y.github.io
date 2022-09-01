@@ -124,5 +124,6 @@ table {
 td, th {
   border: 2px solid grey;
   padding: 0.5rem;
+  /*margin: 0;*/
   text-align: left;
 }
