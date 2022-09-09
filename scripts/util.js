@@ -4,6 +4,10 @@ let starPosLeft = [];
 let starPosRight = [];
 
 let blkLeft = document.getElementById("star_blockLeft");
+let textBlk = document.getElementById("textBLK");
+let sizeHeight = parseInt(textBlk.offsetHeight);
+blkLeft.style.height = sizeHeight + "px";
+
 let sizeLeft = parseInt(getComputedStyle(blkLeft).height)/90;	//every 90 pixels should have 1 star
 for (let i = 0; i < sizeLeft; i++) {
 	let level = Math.floor(i/4);
@@ -14,6 +18,7 @@ for (let i = 0; i < sizeLeft; i++) {
 }
 
 let blkRight = document.getElementById("star_blockRight");
+blkRight.style.height = sizeHeight + "px";
 let sizeRight = parseInt(getComputedStyle(blkRight).height)/90;	//every 90 pixels should have 1 star
 for (let i = 0; i < sizeRight; i++) {
 	let level = Math.floor(i/4);
